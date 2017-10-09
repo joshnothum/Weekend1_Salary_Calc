@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <script src="jquery-3.2.1.min.js"></script>
-    <script src="client.js"></script>
-    <title>Weekend Assignment</title>
-  </head>
-  <body>
-<div class= "container">
-  <div id="buttonAHolder">
-    <button id="submitNow">Submit</button>
+<head>
+  <meta charset="utf-8">
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="client.js"></script>
+  <title>Weekend Assignment</title>
+</head>
+<body>
+  <div class= "container">
 
+    <form id='employeeInformation'>
+      <div class='employeeInformation'>
+        <lable id='nameLable' for='nameField'>First Name:</lable>
+        <input id='nameField' type='text'></input>
+        <lable id='lastNameLable' for='lastNameField'>Last Name:</lable>
+        <input id='lastNameField' type='text'></input>
+        <lable id='employeeIDLable' for='employeeIDField'>Employee ID:</lable>
+        <input id='employeeIDField' type="text"></input>
+        <label id="jobTitleLable" for="jobTitleField">Job Title:</lable>
+        <input id="jobTitleField" type="text"></input>
+        <label id="salaryLable" for="salaryField">Salary:</lable>
+        <input id="salaryField" type="text"></input>
+      </div>
+
+    </form>
+    <div class ="answers">
+      <div id="buttonHolder">
+        <button id="submitNow">Submit</button>
+      </div>
+    </div>
   </div>
-  <div id="infoHolder">
-    <input type="text" id="firstName">First Name</input>
-  </div>
-</div>
-<h1>We are ready!</h1>
-  </body>
+  <h1>We are ready!</h1>
+</body>
 </html>
